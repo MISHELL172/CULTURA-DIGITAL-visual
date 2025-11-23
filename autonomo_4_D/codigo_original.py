@@ -14,7 +14,7 @@ upper = 100000
 inicio = time.time() # para ver el inicio del  cronometro
 
 print("Los numeros primos", lower, "and", upper, "son")
-for num in range(lower, upper + 1): # ciclo que ve todos los numero 
+for num in range(lower, upper + 1): # ciclo que ve todos los numero
     if num > 1:
         is_primo = True
         for i in range (2, int(num**0.5)+1):
